@@ -6,7 +6,7 @@
         this.landWidth=landimg.width
         this.landHeight=landimg.height
         this.x=x
-        this.speed=13
+        this.speed=3
     }
     Land.prototype.draw=function(){
         this.ctx.drawImage(this.landImg,this.x,this.ctx.canvas.height-this.landHeight)
