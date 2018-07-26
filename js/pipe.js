@@ -8,7 +8,7 @@
         this.pipeHeight = pipetop.height
         this.x = x+1400//给小鸟留出距离
         this.space=200
-        this.speed=3
+        this.speed=13
         this.initY()//管道实例化的时候调用一次给对象里保存一个随机坐标
     }
 
