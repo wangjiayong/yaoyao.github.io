@@ -94,6 +94,8 @@
     }
     Game.prototype.gameOver = function () {
         this.running=false
+        alert('gameOver')
+        location.reload()
     }
     fb.Game = Game
 })(FB)
