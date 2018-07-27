@@ -94,7 +94,7 @@
     }
     Game.prototype.gameOver = function () {
         this.running=false
-        alert('gameOver')
+        alert('张丽羽你把小鸟玩死了')
         location.reload()
     }
     fb.Game = Game

@@ -4,7 +4,7 @@
         this.ctx=ctx
         this.x=x||0
         this.skyimg=skyimg
-        this.speed=3
+        this.speed=13
     }
     Sky.prototype.draw=function(){
         this.ctx.drawImage(this.skyimg,this.x,0)
