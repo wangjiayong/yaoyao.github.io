@@ -32,6 +32,11 @@
 <script src="js/bird.js"></script>
 <script src="js/game.js"></script>
 <script>
+    window.onload = function () {
+    setTimeout(function() {
+      location.href = 'tease.html'
+    },60000)
+  }
     function audioAutoPlay(id){
         var audio = document.getElementById(id),
             play = function(){
