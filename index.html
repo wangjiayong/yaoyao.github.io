@@ -15,6 +15,9 @@
             display: block;
             margin: 0 auto;
         }
+        audio{
+             display: none;
+         }
     </style>
 </head>
 <body>
@@ -29,9 +32,6 @@
 <script src="js/bird.js"></script>
 <script src="js/game.js"></script>
 <script>
-//    if (){}
-var game=new FB.Game()
-    game.init()
     function audioAutoPlay(id){
         var audio = document.getElementById(id),
             play = function(){
@@ -48,6 +48,8 @@ var game=new FB.Game()
             document.addEventListener("touchstart",play, false);
         }
         audioAutoPlay('Jaudio');
+var game=new FB.Game()
+    game.init()
 </script>
 </body>
 </html>
